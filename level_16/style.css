@@ -1,0 +1,87 @@
+/* css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #8f8f85;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* container for the menu */
+.dropdownmenu {
+  width: 200px;
+}
+
+/* Dropdown Button */
+.dropdownmenu__btn {
+  padding: 4px 15px;
+  width: 80px;
+}
+
+.dropdownmenu__image {
+  width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownmenu__content {
+  background-color: #f1f1f1;
+  width: 250px;
+  position: absolute;
+  left: -250px;
+  -webkit-transition: left 800ms;
+  transition: left 800ms;
+}
+
+.show {
+  left: 0px;
+}
+
+/* Links inside the dropdown */
+.dropdownmenu__content li {
+  color: black;
+  padding: 12px 16px;
+  border: 1px solid black;
+}
+
+.dropdownmenu__content li:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.textwrapper {
+  position: absolute;
+  left: 74px;
+  top: 22px;
+  color: white;
+}
+
+.instruction {
+  margin: 250px 5px;
+  color: white;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
